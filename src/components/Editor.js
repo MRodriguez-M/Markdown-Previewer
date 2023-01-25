@@ -3,7 +3,10 @@ import React from "react";
 const Editor = () => {
     return (
         <>
-            <textarea id="editor"></textarea>
+            <div id="editor-box">
+                <p>Editor</p>
+                <textarea id="editor"></textarea>
+            </div>
         </>
     );
 };

@@ -1,0 +1,29 @@
+html {
+    background-color: #03c04a;
+}
+
+#editor-box {
+    background-color: #028a0f;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 40%;
+    border: 2px solid;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#preview {
+    background-color: #028a0f;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 45%;
+}
+
+#editor {
+    resize: none;
+    outline: none;
+    height: 90%;
+}
