@@ -1,11 +1,11 @@
 import React from "react";
 
-const Editor = () => {
+const Editor = (props) => {
     return (
         <>
             <div id="editor-box">
                 <p>Editor</p>
-                <textarea id="editor"></textarea>
+                <textarea id="editor" value={props.markdown} onChange={props.handleChange}></textarea>
             </div>
         </>
     );
