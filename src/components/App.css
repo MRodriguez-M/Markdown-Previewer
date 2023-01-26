@@ -14,16 +14,25 @@ html {
     flex-direction: column;
 }
 
-#preview {
+#preview-box {
     background-color: #028a0f;
     position: absolute;
     right: 20px;
     top: 20px;
     width: 45%;
+    border: 2px solid;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #editor {
     resize: none;
     outline: none;
     height: 90%;
+}
+
+#preview {
+    background-color: white;
+    height: 91%;
 }

@@ -3,7 +3,10 @@ import React from "react";
 const Preview = () => {
     return (
         <>
-            <div id="preview">preview box</div>
+            <div id="preview-box">
+                <p>Preview</p>
+                <div id="preview"></div>
+            </div>
         </>
     );
 };
