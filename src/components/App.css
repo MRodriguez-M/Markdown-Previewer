@@ -35,4 +35,5 @@ html {
 #preview {
     background-color: white;
     height: 91%;
+    overflow-y: scroll;
 }
