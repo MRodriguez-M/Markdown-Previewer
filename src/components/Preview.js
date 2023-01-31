@@ -5,7 +5,7 @@ const Preview = (props) => {
     return (
         <>
             <div id="preview-box">
-                <p>Preview</p>
+                <h3>Preview</h3>
                 <div id="preview" dangerouslySetInnerHTML={{__html: marked.parse(props.markdown)}}></div>
             </div>
         </>
