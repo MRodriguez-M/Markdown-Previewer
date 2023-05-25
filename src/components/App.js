@@ -28,9 +28,13 @@ function App() {
     setMarkdown(e.target.value);
   };
 
+  const handleClick = () => {
+    setMarkdown("");
+  };
+
   return (
     <>
-      <Editor markdown={markdown} handleChange={handleChange} />
+      <Editor markdown={markdown} handleChange={handleChange} handleClick={handleClick} />
       <Preview markdown={markdown} />
     </>
   );
